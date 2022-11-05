@@ -1,9 +1,16 @@
 package appli;
 
+import traitement.Calculatrice;
+
 import java.util.Arrays;
 
 public class Application {
     public static void main(String[] args) {
-        System.out.println("3IL3");
+        double op1 = 35;
+        double op2 = 22;
+        double result;
+        Calculatrice calculatrice = new Calculatrice();
+        result = calculatrice.add(op1, op2);
+        System.out.println(op1 + " + " + op2 + " = " + result);
     }
 }
