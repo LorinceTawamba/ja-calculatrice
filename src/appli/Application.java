@@ -10,7 +10,17 @@ public class Application {
         double op2 = 22;
         double result;
         Calculatrice calculatrice = new Calculatrice();
+
         result = calculatrice.add(op1, op2);
         System.out.println(op1 + " + " + op2 + " = " + result);
+
+        result = calculatrice.sous(op1, op2);
+        System.out.println(op1 + " - " + op2 + " = " + result);
+
+        result = calculatrice.multi(op1, op2);
+        System.out.println(op1 + " x " + op2 + " = " + result);
+
+        result = calculatrice.div(op1, op2);
+        System.out.println(op1 + " / " + op2 + " = " + result);
     }
 }
