@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class Application {
     public static void main(String[] args) {
         double op1 = 35;
-        double op2 = 22;
+        double op2 = 0;
         double result;
         Calculatrice calculatrice = new Calculatrice();
 
